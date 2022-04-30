@@ -95,3 +95,27 @@ nav {
   left: 0;
   z-index: 100;
 }
+
+nav ul {
+  list-style-type: none;
+  padding-left: 30px;
+}
+
+nav ul li {
+  color: #fff;
+  margin: 40px 0;
+  text-transform: uppercase;
+}
+
+nav ul li i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+nav ul li+li {
+  margin-left: 15px;
+}
+
+nav ul li+li+li {
+  margin-left: 30px;
+}
